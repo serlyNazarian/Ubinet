@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    padding: 30px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    height: 250px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    margin-top: 10px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid blue;
+}
+
+.form {
+    width: 30%;
+    margin: auto;
+  }
+  
+  .form-group input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+  }
+  
+  .form-group select {
+    width: 100%;
+    height: 40px;
+  }
+  
+  .form-group {
+    margin-top: 20px;
+  }
+  
+  .form-group button {
+    width: 140px;
+    height: 40px;
+    background: blue;
+    color: white;
+  }
+  
+  .form-group button:hover {
+    cursor: pointer;
+  }
+
+
+  .sign-up {
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  .sign-up button {
+    color: white;
+    height: 50px;
+    width: 100px;
+  }
+  
+  .sign-up button:hover {
+    cursor: pointer;
+    color: lightblue;
+  }
+
+  .sign-up2 {
+    display: flex;
+    flex-direction: row;
+   width: 100px;
+   height: 50px;
+  }
+
+  .last-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
